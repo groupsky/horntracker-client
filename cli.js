@@ -19,10 +19,15 @@ require('yargs')
   }, function (argv) {
     if (argv.verbose) console.info('getting id of ' + argv.type + ' "' + argv.name + '"')
     ht.getIdFromName(argv.type, argv.name, function (e, r, body) {
-      console.log(body)
+      if (e) {
+        console.error(e)
+      } else {
+        console.log(body)
+      }
     })
   })
   .option('verbose', {
     alias: 'v',
     default: false
   })
+  .argv
