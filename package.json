@@ -2,22 +2,26 @@
   "name": "horntracker-client",
   "version": "0.0.1",
   "description": "Unofficial horntracker client using undocumented api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Geno Roupsky <geno@roupsky.name> (https://github.com/groupsky)",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/groupsky/horntracker-client.git"
+  },
   "dependencies": {
-    "optimist": "^0.6.1",
-    "rc": "^1.2.2",
     "request": "^2.83.0",
     "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "nock": "^9.0.27",
+    "standard": "*",
+    "tape": "^4.8.0"
   },
   "bin": {
     "ht-cli": "./cli.js"
   },
-  "devDependencies": {
-    "standard": "^10.0.3"
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape 'tests/**/*.js'"
   }
 }
