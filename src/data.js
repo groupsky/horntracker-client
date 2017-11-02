@@ -26,36 +26,36 @@ exports.aliases = {
   'trap check': 'trap checks',
   'check': 'trap checks',
   'checks': 'trap checks',
-  friend: 'friend sounded',
+  friend: 'friend sounded'
 }
 
 exports.cached = {
   shield: {
     active: 1,
-    inactive: 0,
+    inactive: 0
   },
   'journal type': {
     active: 1,
     'trap checks': 2,
-    'friend sounded': 3,
+    'friend sounded': 3
   },
   season: {
     fall: 1,
     spring: 3,
     summer: 4,
-    winter: 2,
+    winter: 2
   },
   'hallway length': {
     short: 2,
     medium: 1,
     long: 3,
-    none: 4,
+    none: 4
   },
   'hallway tier': {
     plain: 1,
     superior: 2,
     epic: 3,
-    none: 4,
+    none: 4
   },
   'hallway type': {
     fealty: 5,
@@ -64,16 +64,16 @@ exports.cached = {
     treasury: 2,
     farming: 3,
     entrance: 6,
-    minotaur: 7,
+    minotaur: 7
   },
   'grove status': {
     open: 0,
-    closed: 1,
+    closed: 1
   },
   tide: {
     high: 3,
     low: 1,
-    medium: 2,
+    medium: 2
   },
   'iceberg section': {
     'treacherous tunnels': 1,
@@ -86,6 +86,6 @@ exports.cached = {
     'general (#3)': 9,
     'general (#4)': 10,
     'hidden depths': 12,
-    'the deep lair': 13,
-  },
+    'the deep lair': 13
+  }
 }

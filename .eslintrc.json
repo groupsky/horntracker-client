@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "standard",
+    "standard-jsx"
+  ],
+  "plugins": [
+    "standard",
+    "promise"
+  ]
+}
