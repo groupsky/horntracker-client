@@ -6,6 +6,7 @@ exports.ENDPOINT = 'http://www.horntracker.com/backend/new/api.php'
 
 exports.aliases = {
   // type aliases
+  trap: 'weapon',
   rank: 'title',
   charm: 'trinket',
   journal: 'journal type',

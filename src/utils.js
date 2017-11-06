@@ -1,8 +1,9 @@
+var Promise = require('bluebird')
 var data = require('./data')
 
 exports.prepare = function (val) {
   val = val.trim().toLowerCase()
-  return data.aliases[val] || val
+  return data.aliases[ val ] || val
 }
 
 exports.prepareType = function (type) {
@@ -14,7 +15,9 @@ exports.prepareName = function (type, name) {
   name = exports.prepare(name)
 
   switch (type) {
-    case 'trap':
+    case 'weapon':
+      if (!name.endsWith('trap')) name = name + ' trap'
+      break
     case 'base':
     case 'cheese':
       if (!name.endsWith(type)) name = name + ' ' + type
@@ -25,4 +28,11 @@ exports.prepareName = function (type, name) {
   }
 
   return name
+}
+
+exports.prepareSetup = function (setup) {
+  return Promise.resolve(setup).then(function (setup) {
+    console.log(setup)
+    return setup
+  })
 }
