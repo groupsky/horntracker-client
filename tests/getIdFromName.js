@@ -7,7 +7,7 @@ test('getIdFromName', function (t) {
   var nt = function (label, vars, res, type, name, cb) {
     return t.test(label, function (t) {
       nock(data.ENDPOINT).post('', { f: 'getIdFromName', vars: vars }).reply(200, res)
-      req(type, name, cb.bind(null, t))
+      req(type, name).then(function (d) { cb(t, null, null, d) }, function (e) { cb(t, e) })
     })
   }
 
@@ -21,7 +21,7 @@ test('getIdFromName', function (t) {
   })
 
   nt('request type/name', {
-    type: 'trap',
+    type: 'weapon',
     name: 'ambush trap'
   }, { id: 1 }, 'trap', 'ambush', function (t, e, r, data) {
     t.error(e, 'no error')
@@ -58,11 +58,26 @@ test('getIdFromName', function (t) {
     t.end()
   })
 
+  t.test('should use cached ht menu if down', function (t) {
+    nock(data.ENDPOINT).post('', { f: 'getIdFromName', vars: { type: 'tide', name: 'high' } }).replyWithError(500)
+    req('tide', 'high').then(function (d) {
+      t.deepEqual(d, { id: 3 })
+      t.end()
+    }, function (e) {
+      t.error(e, 'no error')
+      t.fail()
+      t.end()
+    })
+  })
+
   t.test('should report connectivity errors', function (t) {
-    nock(data.ENDPOINT).post('', { f: 'getIdFromName', vars: {type: 'tide', name: 'high'} }).replyWithError(500)
-    req('tide', 'high', function (e, r, res) {
+    nock(data.ENDPOINT).post('', { f: 'getIdFromName', vars: { type: 'ala', name: 'bala' } }).replyWithError(500)
+    req('ala', 'bala').then(function (d) {
+      t.error(d)
+      t.fail('no result')
+      t.end()
+    }, function (e) {
       t.ok(e, 'has error')
-      t.error(res, 'no result')
       t.end()
     })
   })

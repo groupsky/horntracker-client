@@ -9,13 +9,20 @@
     "url": "git://github.com/groupsky/horntracker-client.git"
   },
   "dependencies": {
+    "bluebird": "^3.5.1",
     "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
     "nock": "^9.0.27",
     "standard": "*",
     "tape": "^4.8.0"
+  },
+  "standard": {
+    "ignore": [
+      "/cache"
+    ]
   },
   "bin": {
     "ht-cli": "./cli.js"
