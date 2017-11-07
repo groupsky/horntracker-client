@@ -11,6 +11,8 @@ exports.aliases = {
   charm: 'trinket',
   journal: 'journal type',
   // title aliases
+  journeyman: 'journeyman/journeywoman',
+  journeywoman: 'journeyman/journeywoman',
   lord: 'lord/lady',
   lady: 'lord/lady',
   baron: 'baron/baroness',
