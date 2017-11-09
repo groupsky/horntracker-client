@@ -1,6 +1,6 @@
 {
   "name": "horntracker-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unofficial horntracker client using undocumented api",
   "author": "Geno Roupsky <geno@roupsky.name> (https://github.com/groupsky)",
   "license": "MIT",
