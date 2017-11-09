@@ -10,14 +10,18 @@
   },
   "dependencies": {
     "bluebird": "^3.5.1",
+    "json2csv": "^3.11.5",
+    "lodash": "^4.17.4",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "yargs": "^10.0.3"
   },
   "devDependencies": {
     "nock": "^9.0.27",
+    "proxyquire": "^1.8.0",
     "standard": "*",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "tape-nock": "^1.6.0"
   },
   "standard": {
     "ignore": [
