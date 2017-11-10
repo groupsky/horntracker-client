@@ -35,15 +35,17 @@ exports.aliases = {
   'sb+': 'super|brie+',
   'toxic sb': 'toxic super|brie+',
   'toxic sb+': 'toxic super|brie+',
-  ggc: 'glowing gourd cheese',
-  rsc: 'runic string cheese',
+  ggc: 'glowing gruyere',
+  rsc: 'runic string',
   rrb: 'rancid radioactive blue',
   rb: 'radioactive blue',
-  msc: 'magical string cheese',
-  mrrb: 'magical rancid radioactive blue cheese',
+  msc: 'magical string',
+  mrrb: 'magical rancid radioactive blue',
   galleon: 'galleon gouda',
   bs: 'brie string',
-  asc: 'ancient string cheese'
+  asc: 'ancient string',
+  // location aliases
+  mopi: 'moussu picchu'
 }
 
 exports.cached = {
