@@ -4,7 +4,7 @@ var data = require('./data')
 var utils = require('./utils')
 var htmenu = require('../cache/htmenu')
 
-module.exports = function (type, name) {
+module.exports = function (type, name, opts) {
   if (!type) throw new Error('missing type!')
   if (!name) throw new Error('missing name!')
 
@@ -41,7 +41,7 @@ module.exports = function (type, name) {
       console.error('Can\'t find cached id for ', type, '/', name, 'Trying to request from HT')
 
       // finally hope the api will work
-      return request({
+      return request(opts, {
         f: 'getIdFromName',
         vars: {
           type: type,

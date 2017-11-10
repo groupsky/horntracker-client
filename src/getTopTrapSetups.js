@@ -20,7 +20,7 @@ module.exports = function (setup, opts) {
         vars: setup
       }
     })
-    .then(request)
+    .then(request.bind(request, opts))
     .then(function (data) {
       if (!data.toptraps) throw new Error('no toptraps in response')
       return data.toptraps

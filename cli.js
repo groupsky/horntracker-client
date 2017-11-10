@@ -15,6 +15,11 @@ require('yargs')
     global: true,
     default: false
   })
+  .option('retry', {
+    alias: 'r',
+    global: true,
+    default: false
+  })
   .commandDir('cmds')
   .demandCommand()
   .epilogue('for more information, check the readme at https://github.com/groupsky/horntracker-client')

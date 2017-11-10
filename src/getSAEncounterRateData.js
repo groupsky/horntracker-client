@@ -23,7 +23,7 @@ module.exports = function (setup, opts) {
         vars: setup
       }
     })
-    .then(request)
+    .then(request.bind(request, opts))
     .then(function (data) {
       if (!data.mice) throw new Error('no mice in response')
       var sample = +data.huntCount

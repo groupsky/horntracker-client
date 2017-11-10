@@ -1,6 +1,5 @@
 var Promise = require('bluebird')
 var _ = require('lodash')
-var debug = require('debug')('ht:loot')
 var request = require('./rawRequest')
 var vars = require('./vars')
 
@@ -20,7 +19,7 @@ module.exports = function (setup, opts) {
         vars: setup
       }
     })
-    .then(request)
+    .then(request.bind(request, opts))
     .then(function (data) {
       if (!data.loot) throw new Error('no loot in response')
       var sample = +data.totalCaught

@@ -19,7 +19,7 @@ exports.builder = function (yargs) {
 
 exports.handler = function (argv) {
   if (argv.verbose) console.info('getting id of ' + argv.type + ' "' + argv.name + '"')
-  ht.getIdFromName(argv.type, argv.name)
+  ht.getIdFromName(argv.type, argv.name, argv)
     .then(output.handler.bind(output, argv))
       .catch(console.error.bind(console))
 }

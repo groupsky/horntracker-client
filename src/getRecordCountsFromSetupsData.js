@@ -36,7 +36,7 @@ module.exports = function (setup, opts) {
         }
       }
     })
-    .then(request)
+    .then(request.bind(request, opts))
     .then(function (res) { return res.targets })
 }
 
