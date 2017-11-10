@@ -17,5 +17,6 @@ require('yargs')
   })
   .commandDir('cmds')
   .demandCommand()
+  .epilogue('for more information, check the readme at https://github.com/groupsky/horntracker-client')
   .argv
 /* eslint-enable no-unused-expressions */
