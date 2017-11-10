@@ -3,6 +3,7 @@ var output = require('./options/output')
 var vars = require('./options/vars')
 
 exports.command = 'pop'
+exports.aliases = 'population'
 exports.describe = 'display mouse population for setup'
 exports.builder = function (yargs) {
   return yargs
