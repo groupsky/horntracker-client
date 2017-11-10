@@ -37,6 +37,14 @@ This could be used to find the locations where a particular mouse was most seen
 ht-cli most location --vars.mouse.sandmouse
 ```
 
+### Top trap setups
+
+Get the top trap setups observed.
+
+```
+ht-cli top --vars.location.mopi --vars.cheese.ggc
+```
+
 ### Vars
 
 Vars are the different filters to be applied when executing the command. Most common ones are:
