@@ -29,7 +29,21 @@ exports.aliases = {
   'trap check': 'trap checks',
   'check': 'trap checks',
   'checks': 'trap checks',
-  friend: 'friend sounded'
+  friend: 'friend sounded',
+  // cheese aliases
+  sb: 'super|brie+',
+  'sb+': 'super|brie+',
+  'toxic sb': 'toxic super|brie+',
+  'toxic sb+': 'toxic super|brie+',
+  ggc: 'glowing gourd cheese',
+  rsc: 'runic string cheese',
+  rrb: 'rancid radioactive blue',
+  rb: 'radioactive blue',
+  msc: 'magical string cheese',
+  mrrb: 'magical rancid radioactive blue cheese',
+  galleon: 'galleon gouda',
+  bs: 'brie string',
+  asc: 'ancient string cheese'
 }
 
 exports.cached = {
