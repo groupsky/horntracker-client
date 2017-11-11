@@ -100,12 +100,7 @@ module.exports = [
       { "name": "Year of the Dragon Festival", "value": "288" },
       { "name": "Zokor", "value": "341" },
       { "name": "Zugzwang's Tower", "value": "3" }
-    ],
-    "position": "1",
-    "name": "Location",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "1", "name": "Location", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -265,6 +260,7 @@ module.exports = [
       { "name": "Cowbell", "value": "208" },
       { "name": "Crabolia", "value": "1230" },
       { "name": "Crag Elder", "value": "1376" },
+      { "name": "Craggy Ore Mouse", "value": "1611" },
       { "name": "Cranky Caterpillar", "value": "1333" },
       { "name": "Crate Camo", "value": "1136" },
       { "name": "Crazed Goblin", "value": "1331" },
@@ -610,6 +606,7 @@ module.exports = [
       { "name": "Moosker", "value": "165" },
       { "name": "Mossy Moosker", "value": "1330" },
       { "name": "Mouldy Mole", "value": "1364" },
+      { "name": "Mountain Mouse", "value": "1613" },
       { "name": "Mousataur Priestess", "value": "1314" },
       { "name": "Mouse of Winter Future", "value": "297" },
       { "name": "Mouse of Winter Past", "value": "293" },
@@ -816,6 +813,7 @@ module.exports = [
       { "name": "Slayer", "value": "51" },
       { "name": "Sleepwalker", "value": "318" },
       { "name": "Slimefist", "value": "1175" },
+      { "name": "Slope Swimmer Mouse", "value": "1612" },
       { "name": "Sludge", "value": "1162" },
       { "name": "Sludge Soaker", "value": "1166" },
       { "name": "Sludge Swimmer", "value": "1180" },
@@ -1030,12 +1028,7 @@ module.exports = [
       { "name": "Zombot Unipire", "value": "268" },
       { "name": "Zombot Unipire the Third", "value": "1286" },
       { "name": "Zurreal the Eternal", "value": "527" }
-    ],
-    "position": "2",
-    "name": "Mouse",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "2", "name": "Mouse", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -1220,12 +1213,7 @@ module.exports = [
       { "name": "Zugzwang's Ultimate Move", "value": "232" },
       { "name": "Zugzwang\\'s Ultimate Move", "value": "234" },
       { "name": "Zurreal's Folly", "value": "136" }
-    ],
-    "position": "3",
-    "name": "Weapon",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "3", "name": "Weapon", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -1305,15 +1293,11 @@ module.exports = [
       { "name": "Washboard", "value": "61" },
       { "name": "Wooden", "value": "9" },
       { "name": "Wooden Base with Target", "value": "2" }
-    ],
-    "position": "4",
-    "name": "Base",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "4", "name": "Base", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
+      { "name": "Abominable Asiago Cheese", "value": "160" },
       { "name": "Ancient", "value": "16" },
       { "name": "Ancient String Cheese", "value": "150" },
       { "name": "Arctic Asiago", "value": "99" },
@@ -1322,6 +1306,7 @@ module.exports = [
       { "name": "Brie String", "value": "86" },
       { "name": "Candy Corn", "value": "50" },
       { "name": "Checkmate", "value": "6" },
+      { "name": "Chedd-Ore Cheese", "value": "158" },
       { "name": "Cheddar", "value": "32" },
       { "name": "Cherry", "value": "26" },
       { "name": "Combat", "value": "39" },
@@ -1416,12 +1401,7 @@ module.exports = [
       { "name": "White Cheddar", "value": "35" },
       { "name": "Wicked Gnarly", "value": "43" },
       { "name": "Windy Cheese", "value": "153" }
-    ],
-    "position": "5",
-    "name": "Cheese",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "5", "name": "Cheese", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -1553,6 +1533,7 @@ module.exports = [
       { "name": "Shielding", "value": "191" },
       { "name": "Shine", "value": "112" },
       { "name": "Shortcut", "value": "166" },
+      { "name": "Small Power Charm", "value": "280" },
       { "name": "Smart Water Jet", "value": "207" },
       { "name": "Snakebite", "value": "119" },
       { "name": "Snowball", "value": "147" },
@@ -1626,12 +1607,7 @@ module.exports = [
       { "name": "Winter Wood", "value": "88" },
       { "name": "Yellow Double Sponge", "value": "125" },
       { "name": "Yellow Sponge", "value": "110" }
-    ],
-    "position": "6",
-    "name": "Charm",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "6", "name": "Charm", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -1654,35 +1630,20 @@ module.exports = [
       { "name": "Novice", "value": "15" },
       { "name": "Recruit", "value": "8" },
       { "name": "Viceroy", "value": "46" }
-    ],
-    "position": "7",
-    "name": "Title",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "7", "name": "Title", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
       { "name": "Active", "value": "1" },
       { "name": "Inactive", "value": "0" }
-    ],
-    "position": "8",
-    "name": "Shield",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "8", "name": "Shield", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
       { "name": "Active", "value": "1" },
       { "name": "Trap Checks", "value": "2" },
       { "name": "Friend Sounded", "value": "3" }
-    ],
-    "position": "9",
-    "name": "Journal Type",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "9", "name": "Journal Type", "parent": null, "parent_key": null, "custom": 0
   },
   {
     "data": [
@@ -1763,12 +1724,7 @@ module.exports = [
       { "name": "King's Giveaway", "value": "3" },
       { "name": "Halloween Trick AND Treat 2010", "value": "2" },
       { "name": "Laboratory Radioactive Sludge Event", "value": "1" }
-    ],
-    "position": "10",
-    "name": "Specify Dates",
-    "parent": null,
-    "parent_key": null,
-    "custom": 0
+    ], "position": "10", "name": "Specify Dates", "parent": null, "parent_key": null, "custom": 0
   },
   { "data": [], "position": "1", "name": "Date Range", "parent": "Specify Dates", "parent_key": "-1", "custom": 1 },
   {
@@ -1777,12 +1733,7 @@ module.exports = [
       { "name": "Spring", "value": "3" },
       { "name": "Summer", "value": "4" },
       { "name": "Winter", "value": "2" }
-    ],
-    "position": "1",
-    "name": "Season",
-    "parent": "Location",
-    "parent_key": "1",
-    "custom": 0
+    ], "position": "1", "name": "Season", "parent": "Location", "parent_key": "1", "custom": 0
   },
   {
     "data": [
@@ -1791,24 +1742,14 @@ module.exports = [
       { "name": "Medium", "value": "1" },
       { "name": "Long", "value": "3" },
       { "name": "None", "value": "4" }
-    ],
-    "position": "1",
-    "name": "Hallway Length",
-    "parent": "Labyrinth State",
-    "parent_key": "1",
-    "custom": 0
+    ], "position": "1", "name": "Hallway Length", "parent": "Labyrinth State", "parent_key": "1", "custom": 0
   },
   {
     "data": [
       { "name": "Plain", "value": "1" },
       { "name": "Superior", "value": "2" },
       { "name": "Epic", "value": "3" }
-    ],
-    "position": "2",
-    "name": "Hallway Tier",
-    "parent": "Labyrinth State",
-    "parent_key": "1",
-    "custom": 0
+    ], "position": "2", "name": "Hallway Tier", "parent": "Labyrinth State", "parent_key": "1", "custom": 0
   },
   {
     "data": [
@@ -1820,12 +1761,7 @@ module.exports = [
       { "name": "Farming", "value": "3" },
       { "name": "Entrance", "value": "6" },
       { "name": "Minotaur", "value": "7" }
-    ],
-    "position": "3",
-    "name": "Hallway Type",
-    "parent": "Labyrinth State",
-    "parent_key": "1",
-    "custom": 0
+    ], "position": "3", "name": "Hallway Type", "parent": "Labyrinth State", "parent_key": "1", "custom": 0
   },
   {
     "data": [
@@ -1849,12 +1785,7 @@ module.exports = [
       { "name": "16", "value": "16" },
       { "name": "32", "value": "32" },
       { "name": "48", "value": "48" }
-    ],
-    "position": "1",
-    "name": "Mystic Pieces",
-    "parent": "Location",
-    "parent_key": "3",
-    "custom": 0
+    ], "position": "1", "name": "Mystic Pieces", "parent": "Location", "parent_key": "3", "custom": 0
   },
   {
     "data": [
@@ -1878,12 +1809,7 @@ module.exports = [
       { "name": "16", "value": "16" },
       { "name": "32", "value": "32" },
       { "name": "48", "value": "48" }
-    ],
-    "position": "2",
-    "name": "Technic Pieces",
-    "parent": "Location",
-    "parent_key": "3",
-    "custom": 0
+    ], "position": "2", "name": "Technic Pieces", "parent": "Location", "parent_key": "3", "custom": 0
   },
   {
     "data": [
@@ -2063,23 +1989,13 @@ module.exports = [
       { "name": "173", "value": "173" },
       { "name": "174", "value": "174" },
       { "name": "175", "value": "175" }
-    ],
-    "position": "3",
-    "name": "Amplifier",
-    "parent": "Location",
-    "parent_key": "3",
-    "custom": 1
+    ], "position": "3", "name": "Amplifier", "parent": "Location", "parent_key": "3", "custom": 1
   },
   {
     "data": [
       { "name": "Closed", "value": "0" },
       { "name": "Open", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Grove Status",
-    "parent": "Location",
-    "parent_key": "28",
-    "custom": 0
+    ], "position": "1", "name": "Grove Status", "parent": "Location", "parent_key": "28", "custom": 0
   },
   {
     "data": [
@@ -2087,12 +2003,7 @@ module.exports = [
       { "name": "Low", "value": "1" },
       { "name": "Medium", "value": "2" },
       { "name": "Undefined", "value": "17" }
-    ],
-    "position": "1",
-    "name": "Tide",
-    "parent": "Location",
-    "parent_key": "38",
-    "custom": 0
+    ], "position": "1", "name": "Tide", "parent": "Location", "parent_key": "38", "custom": 0
   },
   {
     "data": [
@@ -2100,24 +2011,14 @@ module.exports = [
       { "name": "Haunted Manor", "value": "2" },
       { "name": "Pumpkin Patch", "value": "3" },
       { "name": "Boss", "value": "4" }
-    ],
-    "position": "1",
-    "name": "Sublocation",
-    "parent": "Location",
-    "parent_key": "51",
-    "custom": 0
+    ], "position": "1", "name": "Sublocation", "parent": "Location", "parent_key": "51", "custom": 0
   },
   {
     "data": [
       { "name": "Constructing", "value": "1" },
       { "name": "Fighting", "value": "2" },
       { "name": "Finished", "value": "3" }
-    ],
-    "position": "1",
-    "name": "Birthday Phase",
-    "parent": "Location",
-    "parent_key": "69",
-    "custom": 0
+    ], "position": "1", "name": "Birthday Phase", "parent": "Location", "parent_key": "69", "custom": 0
   },
   {
     "data": [
@@ -2127,12 +2028,7 @@ module.exports = [
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" },
       { "name": "4", "value": "4" }
-    ],
-    "position": "1",
-    "name": "Wave",
-    "parent": "Location",
-    "parent_key": "75",
-    "custom": 0
+    ], "position": "1", "name": "Wave", "parent": "Location", "parent_key": "75", "custom": 0
   },
   {
     "data": [
@@ -2150,12 +2046,7 @@ module.exports = [
       { "name": "10", "value": "10" },
       { "name": "11", "value": "11" },
       { "name": "12", "value": "12" }
-    ],
-    "position": "2",
-    "name": "Streak",
-    "parent": "Location",
-    "parent_key": "75",
-    "custom": 0
+    ], "position": "2", "name": "Streak", "parent": "Location", "parent_key": "75", "custom": 0
   },
   {
     "data": [
@@ -2571,12 +2462,7 @@ module.exports = [
       { "name": "438", "value": "438" },
       { "name": "442", "value": "442" },
       { "name": "444", "value": "444" }
-    ],
-    "position": "3",
-    "name": "Victories",
-    "parent": "Location",
-    "parent_key": "75",
-    "custom": 0
+    ], "position": "3", "name": "Victories", "parent": "Location", "parent_key": "75", "custom": 0
   },
   {
     "data": [
@@ -2585,12 +2471,7 @@ module.exports = [
       { "name": "Completed", "value": "5" },
       { "name": "Flame", "value": "4" },
       { "name": "Icing", "value": "2" }
-    ],
-    "position": "1",
-    "name": "Stage",
-    "parent": "Location",
-    "parent_key": "295",
-    "custom": 0
+    ], "position": "1", "name": "Stage", "parent": "Location", "parent_key": "295", "custom": 0
   },
   {
     "data": [
@@ -2605,34 +2486,19 @@ module.exports = [
       { "name": "Icewing's Lair", "value": "6" },
       { "name": "Hidden Depths", "value": "12" },
       { "name": "The Deep Lair", "value": "13" }
-    ],
-    "position": "1",
-    "name": "Iceberg Section",
-    "parent": "Location",
-    "parent_key": "297",
-    "custom": 0
+    ], "position": "1", "name": "Iceberg Section", "parent": "Location", "parent_key": "297", "custom": 0
   },
   {
     "data": [
       { "name": "Dumped", "value": "2" },
       { "name": "Filling", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Bucket State",
-    "parent": "Location",
-    "parent_key": "301",
-    "custom": 0
+    ], "position": "1", "name": "Bucket State", "parent": "Location", "parent_key": "301", "custom": 0
   },
   {
     "data": [
       { "name": "0", "value": "0" },
       { "name": "1", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Has Stampede",
-    "parent": "Location",
-    "parent_key": "302",
-    "custom": 0
+    ], "position": "1", "name": "Has Stampede", "parent": "Location", "parent_key": "302", "custom": 0
   },
   {
     "data": [
@@ -2641,34 +2507,19 @@ module.exports = [
       { "name": "Ended", "value": "3" },
       { "name": "In Progress", "value": "4" },
       { "name": "No Stampede", "value": "5" }
-    ],
-    "position": "2",
-    "name": "Stampede State",
-    "parent": "Location",
-    "parent_key": "302",
-    "custom": 0
+    ], "position": "2", "name": "Stampede State", "parent": "Location", "parent_key": "302", "custom": 0
   },
   {
     "data": [
       { "name": "0", "value": "0" },
       { "name": "1", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Lost City Curse",
-    "parent": "Location",
-    "parent_key": "304",
-    "custom": 0
+    ], "position": "1", "name": "Lost City Curse", "parent": "Location", "parent_key": "304", "custom": 0
   },
   {
     "data": [
       { "name": "Dumped", "value": "2" },
       { "name": "Filling", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Vial State",
-    "parent": "Location",
-    "parent_key": "309",
-    "custom": 0
+    ], "position": "1", "name": "Vial State", "parent": "Location", "parent_key": "309", "custom": 0
   },
   {
     "data": [
@@ -2676,35 +2527,20 @@ module.exports = [
       { "name": "Power AND Luck boost!", "value": "3" },
       { "name": "Power boost!", "value": "4" },
       { "name": "Luck boost!", "value": "5" }
-    ],
-    "position": "2",
-    "name": "Boost",
-    "parent": "Location",
-    "parent_key": "309",
-    "custom": 0
+    ], "position": "2", "name": "Boost", "parent": "Location", "parent_key": "309", "custom": 0
   },
   {
     "data": [
       { "name": "True", "value": "1" },
       { "name": "False", "value": "0" }
-    ],
-    "position": "1",
-    "name": "Cursed City Curse",
-    "parent": "Location",
-    "parent_key": "311",
-    "custom": 0
+    ], "position": "1", "name": "Cursed City Curse", "parent": "Location", "parent_key": "311", "custom": 0
   },
   {
     "data": [
       { "name": "Yes", "value": "1" },
       { "name": "Partially", "value": "2" },
       { "name": "No", "value": "3" }
-    ],
-    "position": "2",
-    "name": "Cursed City State",
-    "parent": "Location",
-    "parent_key": "311",
-    "custom": 0
+    ], "position": "2", "name": "Cursed City State", "parent": "Location", "parent_key": "311", "custom": 0
   },
   {
     "data": [
@@ -2759,12 +2595,7 @@ module.exports = [
       { "name": "48", "value": "48" },
       { "name": "49", "value": "49" },
       { "name": "50", "value": "50" }
-    ],
-    "position": "1",
-    "name": "Salt Charms",
-    "parent": "Location",
-    "parent_key": "314",
-    "custom": 0
+    ], "position": "1", "name": "Salt Charms", "parent": "Location", "parent_key": "314", "custom": 0
   },
   {
     "data": [
@@ -2775,12 +2606,7 @@ module.exports = [
       { "name": "Ball and Cup", "value": "5" },
       { "name": "Toasty Scarf", "value": "6" },
       { "name": "Completed", "value": "7" }
-    ],
-    "position": "1",
-    "name": "Current Gift",
-    "parent": "Location",
-    "parent_key": "315",
-    "custom": 0
+    ], "position": "1", "name": "Current Gift", "parent": "Location", "parent_key": "315", "custom": 0
   },
   {
     "data": [
@@ -2789,12 +2615,7 @@ module.exports = [
       { "name": "Claim Letter", "value": "3" },
       { "name": "Complete", "value": "4" },
       { "name": "Build Boss Gift", "value": "5" }
-    ],
-    "position": "2",
-    "name": "Gift Status",
-    "parent": "Location",
-    "parent_key": "315",
-    "custom": 0
+    ], "position": "2", "name": "Gift Status", "parent": "Location", "parent_key": "315", "custom": 0
   },
   {
     "data": [
@@ -2808,12 +2629,7 @@ module.exports = [
       { "name": "Zugzwang Island", "value": "8" },
       { "name": "Daredevil Canyon", "value": "9" },
       { "name": "Sunken City", "value": "10" }
-    ],
-    "position": "1",
-    "name": "Cruise Phase",
-    "parent": "Location",
-    "parent_key": "318",
-    "custom": 0
+    ], "position": "1", "name": "Cruise Phase", "parent": "Location", "parent_key": "318", "custom": 0
   },
   {
     "data": [
@@ -2825,12 +2641,7 @@ module.exports = [
       { "name": "Undetermined", "value": "10" },
       { "name": "Bounty Reward Unclaimed", "value": "11" },
       { "name": "Unknown Active Poster", "value": "12" }
-    ],
-    "position": "1",
-    "name": "Wanted Phase",
-    "parent": "Location",
-    "parent_key": "320",
-    "custom": 0
+    ], "position": "1", "name": "Wanted Phase", "parent": "Location", "parent_key": "320", "custom": 0
   },
   {
     "data": [
@@ -2854,12 +2665,7 @@ module.exports = [
       { "name": "Wanted Poster: The Scamping Scammers", "value": "18" },
       { "name": "Wanted Poster: The Thugs Gang", "value": "19" },
       { "name": "", "value": "20" }
-    ],
-    "position": "2",
-    "name": "Wanted Poster Name",
-    "parent": "Location",
-    "parent_key": "320",
-    "custom": 0
+    ], "position": "2", "name": "Wanted Poster Name", "parent": "Location", "parent_key": "320", "custom": 0
   },
   {
     "data": [
@@ -3503,12 +3309,7 @@ module.exports = [
       { "name": "651", "value": "651" },
       { "name": "652", "value": "652" },
       { "name": "654", "value": "654" }
-    ],
-    "position": "3",
-    "name": "Wanted Poster Completions",
-    "parent": "Location",
-    "parent_key": "320",
-    "custom": 0
+    ], "position": "3", "name": "Wanted Poster Completions", "parent": "Location", "parent_key": "320", "custom": 0
   },
   {
     "data": [
@@ -3517,35 +3318,20 @@ module.exports = [
       { "name": "Daredevil Canyon", "value": "3" },
       { "name": "Train Station", "value": "4" },
       { "name": "Not Moving", "value": "5" }
-    ],
-    "position": "1",
-    "name": "Train Phase",
-    "parent": "Location",
-    "parent_key": "321",
-    "custom": 0
+    ], "position": "1", "name": "Train Phase", "parent": "Location", "parent_key": "321", "custom": 0
   },
   {
     "data": [
       { "name": "0", "value": "0" },
       { "name": "1", "value": "1" }
-    ],
-    "position": "1",
-    "name": "Supply Rush",
-    "parent": "Train Phase",
-    "parent_key": "321",
-    "custom": 0
+    ], "position": "1", "name": "Supply Rush", "parent": "Train Phase", "parent_key": "321", "custom": 0
   },
   {
     "data": [
       { "name": "Door", "value": "1" },
       { "name": "Roof", "value": "2" },
       { "name": "Rails", "value": "3" }
-    ],
-    "position": "2",
-    "name": "Trouble Area",
-    "parent": "Train Phase",
-    "parent_key": "321",
-    "custom": 0
+    ], "position": "2", "name": "Trouble Area", "parent": "Train Phase", "parent_key": "321", "custom": 0
   },
   {
     "data": [
@@ -3559,23 +3345,13 @@ module.exports = [
       { "name": "Minion Wave #4", "value": "8" },
       { "name": "Mouse Boss", "value": "10" },
       { "name": "Needs Fort", "value": "9" }
-    ],
-    "position": "1",
-    "name": "Battlefield Phase",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "1", "name": "Battlefield Phase", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
       { "name": "0", "value": "0" },
       { "name": "1", "value": "1" }
-    ],
-    "position": "2",
-    "name": "Fort Foundation",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "2", "name": "Fort Foundation", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
@@ -3583,12 +3359,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "3",
-    "name": "Fort Wall",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "3", "name": "Fort Wall", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
@@ -3596,12 +3367,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "4",
-    "name": "Fort Hall",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "4", "name": "Fort Hall", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
@@ -3609,12 +3375,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "5",
-    "name": "Fort Cannon",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "5", "name": "Fort Cannon", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
@@ -3622,12 +3383,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "6",
-    "name": "Fort Armoury",
-    "parent": "Location",
-    "parent_key": "322",
-    "custom": 0
+    ], "position": "6", "name": "Fort Armoury", "parent": "Location", "parent_key": "322", "custom": 0
   },
   {
     "data": [
@@ -3650,12 +3406,7 @@ module.exports = [
       { "name": "Novice", "value": "15" },
       { "name": "Recruit", "value": "8" },
       { "name": "Viceroy", "value": "46" }
-    ],
-    "position": "1",
-    "name": "Pollution Title",
-    "parent": "Location",
-    "parent_key": "323",
-    "custom": 0
+    ], "position": "1", "name": "Pollution Title", "parent": "Location", "parent_key": "323", "custom": 0
   },
   {
     "data": [
@@ -3682,12 +3433,7 @@ module.exports = [
       { "name": "Shipwreck", "value": "10" },
       { "name": "Sunken City", "value": "1" },
       { "name": "Sunken Treasure", "value": "19" }
-    ],
-    "position": "2",
-    "name": "Sunken City Zone",
-    "parent": "Location",
-    "parent_key": "329",
-    "custom": 0
+    ], "position": "2", "name": "Sunken City Zone", "parent": "Location", "parent_key": "329", "custom": 0
   },
   {
     "data": [
@@ -3695,12 +3441,7 @@ module.exports = [
       { "name": "Mousoleum", "value": "1" },
       { "name": "Digby", "value": "2" },
       { "name": "Toxic Spill", "value": "4" }
-    ],
-    "position": "1",
-    "name": "Bait Tier",
-    "parent": "Location",
-    "parent_key": "331",
-    "custom": 0
+    ], "position": "1", "name": "Bait Tier", "parent": "Location", "parent_key": "331", "custom": 0
   },
   {
     "data": [
@@ -3708,23 +3449,13 @@ module.exports = [
       { "name": "Yellow", "value": "3" },
       { "name": "Green", "value": "2" },
       { "name": "Red", "value": "4" }
-    ],
-    "position": "2",
-    "name": "Mist Tier",
-    "parent": "Location",
-    "parent_key": "331",
-    "custom": 0
+    ], "position": "2", "name": "Mist Tier", "parent": "Location", "parent_key": "331", "custom": 0
   },
   {
     "data": [
       { "name": "True", "value": "1" },
       { "name": "False", "value": "0" }
-    ],
-    "position": "1",
-    "name": "Fort Foundation Built",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "1", "name": "Fort Foundation Built", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3732,12 +3463,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "2",
-    "name": "Fort Cannon Level",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "2", "name": "Fort Cannon Level", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3745,12 +3471,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "3",
-    "name": "Fort Armoury Level",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "3", "name": "Fort Armoury Level", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3758,12 +3479,7 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "4",
-    "name": "Fort Wall Level",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "4", "name": "Fort Wall Level", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3771,24 +3487,14 @@ module.exports = [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "6",
-    "name": "Fort Tower Level",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "6", "name": "Fort Tower Level", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
       { "name": "1", "value": "1" },
       { "name": "2", "value": "2" },
       { "name": "3", "value": "3" }
-    ],
-    "position": "8",
-    "name": "Week",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "8", "name": "Week", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3813,12 +3519,7 @@ module.exports = [
       { "name": "90", "value": "90" },
       { "name": "95", "value": "95" },
       { "name": "100", "value": "100" }
-    ],
-    "position": "9",
-    "name": "Wave 1 Slab Progress",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "9", "name": "Wave 1 Slab Progress", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3848,12 +3549,7 @@ module.exports = [
       { "name": "92", "value": "92" },
       { "name": "96", "value": "96" },
       { "name": "100", "value": "100" }
-    ],
-    "position": "10",
-    "name": "Wave 2 Slab Progress",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "10", "name": "Wave 2 Slab Progress", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3888,12 +3584,7 @@ module.exports = [
       { "name": "93", "value": "93" },
       { "name": "97", "value": "97" },
       { "name": "100", "value": "100" }
-    ],
-    "position": "11",
-    "name": "Wave 3 Slab Progress",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "11", "name": "Wave 3 Slab Progress", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -3919,12 +3610,7 @@ module.exports = [
       { "name": "19", "value": "19" },
       { "name": "20", "value": "20" },
       { "name": "21", "value": "21" }
-    ],
-    "position": "12",
-    "name": "Bonus Wave Step",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "12", "name": "Bonus Wave Step", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
@@ -4072,48 +3758,28 @@ module.exports = [
       { "name": "141", "value": "141" },
       { "name": "158", "value": "158" },
       { "name": "159", "value": "159" }
-    ],
-    "position": "13",
-    "name": "Stuck Snowball Mouse Catches",
-    "parent": "Location",
-    "parent_key": "332",
-    "custom": 0
+    ], "position": "13", "name": "Stuck Snowball Mouse Catches", "parent": "Location", "parent_key": "332", "custom": 0
   },
   {
     "data": [
       { "name": "Low", "value": "1" },
       { "name": "High", "value": "2" },
       { "name": "Boss", "value": "3" }
-    ],
-    "position": "1",
-    "name": "Crazed Clearing Status",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 0
+    ], "position": "1", "name": "Crazed Clearing Status", "parent": "Location", "parent_key": "334", "custom": 0
   },
   {
     "data": [
       { "name": "Low", "value": "1" },
       { "name": "High", "value": "2" },
       { "name": "Boss", "value": "3" }
-    ],
-    "position": "2",
-    "name": "Gigantic Gnarled Tree Status",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 0
+    ], "position": "2", "name": "Gigantic Gnarled Tree Status", "parent": "Location", "parent_key": "334", "custom": 0
   },
   {
     "data": [
       { "name": "Low", "value": "1" },
       { "name": "High", "value": "2" },
       { "name": "Boss", "value": "3" }
-    ],
-    "position": "3",
-    "name": "Deep Lagoon Status",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 0
+    ], "position": "3", "name": "Deep Lagoon Status", "parent": "Location", "parent_key": "334", "custom": 0
   },
   {
     "data": [
@@ -4168,12 +3834,7 @@ module.exports = [
       { "name": "48", "value": "48" },
       { "name": "49", "value": "49" },
       { "name": "50", "value": "50" }
-    ],
-    "position": "4",
-    "name": "Crazed Clearing Level",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 1
+    ], "position": "4", "name": "Crazed Clearing Level", "parent": "Location", "parent_key": "334", "custom": 1
   },
   {
     "data": [
@@ -4228,12 +3889,7 @@ module.exports = [
       { "name": "48", "value": "48" },
       { "name": "49", "value": "49" },
       { "name": "50", "value": "50" }
-    ],
-    "position": "5",
-    "name": "Gigantic Gnarled Tree Level",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 1
+    ], "position": "5", "name": "Gigantic Gnarled Tree Level", "parent": "Location", "parent_key": "334", "custom": 1
   },
   {
     "data": [
@@ -4288,12 +3944,7 @@ module.exports = [
       { "name": "48", "value": "48" },
       { "name": "49", "value": "49" },
       { "name": "50", "value": "50" }
-    ],
-    "position": "6",
-    "name": "Deep Lagoon Level",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 1
+    ], "position": "6", "name": "Deep Lagoon Level", "parent": "Location", "parent_key": "334", "custom": 1
   },
   {
     "data": [
@@ -4448,12 +4099,7 @@ module.exports = [
       { "name": "148", "value": "148" },
       { "name": "149", "value": "149" },
       { "name": "150", "value": "150" }
-    ],
-    "position": "7",
-    "name": "Total Rage Level",
-    "parent": "Location",
-    "parent_key": "334",
-    "custom": 1
+    ], "position": "7", "name": "Total Rage Level", "parent": "Location", "parent_key": "334", "custom": 1
   },
   {
     "data": [
@@ -4467,12 +4113,7 @@ module.exports = [
       { "name": "Zugzwang Island", "value": "8" },
       { "name": "Daredevil Canyon", "value": "9" },
       { "name": "Sunken City", "value": "10" }
-    ],
-    "position": "1",
-    "name": "LNY2015 Cruise Phase",
-    "parent": "Location",
-    "parent_key": "335",
-    "custom": 0
+    ], "position": "1", "name": "LNY2015 Cruise Phase", "parent": "Location", "parent_key": "335", "custom": 0
   },
   {
     "data": [
@@ -5977,12 +5618,7 @@ module.exports = [
       { "name": "1498", "value": "1498" },
       { "name": "1499", "value": "1499" },
       { "name": "1500", "value": "1500" }
-    ],
-    "position": "2",
-    "name": "LNY2015 Cruise Progress",
-    "parent": "Location",
-    "parent_key": "335",
-    "custom": 1
+    ], "position": "2", "name": "LNY2015 Cruise Progress", "parent": "Location", "parent_key": "335", "custom": 1
   },
   {
     "data": [
@@ -5991,12 +5627,7 @@ module.exports = [
       { "name": "Intersection", "value": "3" },
       { "name": "Exit", "value": "2" },
       { "name": "Entrance", "value": "4" }
-    ],
-    "position": "1",
-    "name": "Labyrinth State",
-    "parent": "Location",
-    "parent_key": "340",
-    "custom": 0
+    ], "position": "1", "name": "Labyrinth State", "parent": "Location", "parent_key": "340", "custom": 0
   },
   {
     "data": [
@@ -6008,12 +5639,7 @@ module.exports = [
       { "name": "Farming", "value": "3" },
       { "name": "Entrance", "value": "6" },
       { "name": "Minotaur", "value": "7" }
-    ],
-    "position": "1",
-    "name": "District Type",
-    "parent": "Location",
-    "parent_key": "341",
-    "custom": 0
+    ], "position": "1", "name": "District Type", "parent": "Location", "parent_key": "341", "custom": 0
   },
   {
     "data": [
@@ -6021,12 +5647,7 @@ module.exports = [
       { "name": "1", "value": "2" },
       { "name": "2", "value": "3" },
       { "name": "3", "value": "1" }
-    ],
-    "position": "2",
-    "name": "Alert Level",
-    "parent": "Location",
-    "parent_key": "341",
-    "custom": 0
+    ], "position": "2", "name": "Alert Level", "parent": "Location", "parent_key": "341", "custom": 0
   },
   {
     "data": [
@@ -6039,11 +5660,6 @@ module.exports = [
       { "name": "Active", "value": "4" },
       { "name": "Defeated", "value": "1" },
       { "name": "Minotaur", "value": "5" }
-    ],
-    "position": "3",
-    "name": "Boss Status",
-    "parent": "Location",
-    "parent_key": "341",
-    "custom": 0
+    ], "position": "3", "name": "Boss Status", "parent": "Location", "parent_key": "341", "custom": 0
   }
 ];
