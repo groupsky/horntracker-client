@@ -3,7 +3,10 @@ var _ = require('lodash')
 var request = require('./rawRequest')
 var vars = require('./vars')
 
-var defaults = {}
+var defaults = {
+  'min-chance': 0,
+  'min-qty': 0,
+}
 
 module.exports = function (setup, opts) {
   if (!setup) throw new Error('missing setup!')
@@ -36,6 +39,9 @@ module.exports = function (setup, opts) {
             avgPerDrop: quantity / dropTimes,
             sample: sample
           }
+        })
+        .filter(function (loot) {
+          return loot.chance >= opts[ 'min-chance' ] && loot.avgPerCatch >= opts[ 'min-qty' ]
         })
         .sort(function (a, b) {
           return b.chance - a.chance
