@@ -48,11 +48,11 @@ module.exports = function (type, name, opts) {
           name: name
         }
       })
-    })
-    .then(function (body) {
-      if (body && body.id) {
-        body.id = +body.id
-      }
-      return body
+        .then(function (body) {
+          if (body && body.id) {
+            body.id = +body.id
+          }
+          return body
+        })
     })
 }

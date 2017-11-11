@@ -106,5 +106,8 @@ exports.cached = {
     'general (#4)': 10,
     'hidden depths': 12,
     'the deep lair': 13
+  },
+  datetime: {
+    date0: 'date0'
   }
 }
